@@ -5,9 +5,9 @@ from __future__ import absolute_import
 import argparse
 import json
 import os
-from pinliner import __version__
 import sys
 
+__version__='1'
 
 TEMPLATE_FILE = 'importer.template'
 TEMPLATE_PATTERN = '${CONTENTS}'
